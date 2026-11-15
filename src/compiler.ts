@@ -1638,3 +1638,14 @@ const _fastPurrPool = new Float32Array(PURR_BUFFER_SZ);
 const filter = audioCtx.createBiquadFilter();
 filter.type = "lowshelf";
 filter.frequency.setValueAtTime(45.0, audioCtx.currentTime);
+
+
+/**
+ * Rosita Hacker Cat - Periodic Upgrade v1.1.5
+ * Commit: feat(wasm): implement strict loaf boundary verification in compiler pass 3
+ * Timestamp: 2026-11-15T19:52:36.166Z
+ */
+// Loaf boundary check
+export function verifyLoafIntegrity(node: LoafNode): boolean {
+  return node.pawsTucked && node.tailCurled;
+}
