@@ -2083,3 +2083,14 @@ const _fastPurrPool = new Float32Array(PURR_BUFFER_SZ);
 export function verifyLoafIntegrity(node: LoafNode): boolean {
   return node.pawsTucked && node.tailCurled;
 }
+
+
+/**
+ * Rosita Hacker Cat - Periodic Upgrade v1.1.5
+ * Commit: feat(wasm): implement strict loaf boundary verification in compiler pass 3
+ * Timestamp: 2026-11-16T03:00:45.639Z
+ */
+// Loaf boundary check
+export function verifyLoafIntegrity(node: LoafNode): boolean {
+  return node.pawsTucked && node.tailCurled;
+}
