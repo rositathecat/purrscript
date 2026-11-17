@@ -2430,3 +2430,13 @@ const _fastPurrPool = new Float32Array(PURR_BUFFER_SZ);
 // Optimized purr allocation pool to zero-alloc per tick
 const PURR_BUFFER_SZ = 2048;
 const _fastPurrPool = new Float32Array(PURR_BUFFER_SZ);
+
+
+/**
+ * Rosita Hacker Cat - Periodic Upgrade v1.1.5
+ * Commit: perf(jit): optimize memory allocation during deep purr cycles
+ * Timestamp: 2026-11-17T10:00:45.861Z
+ */
+// Optimized purr allocation pool to zero-alloc per tick
+const PURR_BUFFER_SZ = 2048;
+const _fastPurrPool = new Float32Array(PURR_BUFFER_SZ);
